@@ -10,7 +10,7 @@
 
 <p>Composer: https://getcomposer.org/</p>
 
-<h2>Screenshot</h2>
+<h2><mark>Screenshots</mark></h2>
 
 ## desktop
 
