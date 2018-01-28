@@ -12,12 +12,12 @@
 
 <h2>Screenshot</h2>
 
-##desktop
+## desktop
 
 ![Alt Text](https://github.com/thalysonrodrigues/qrcode-urls/raw/master/pages/running-success.png)
 
 ![Alt Text](https://github.com/thalysonrodrigues/qrcode-urls/raw/master/pages/running-failed.png)
 
-##mobile
+## mobile
 
 ![Alt Text](https://github.com/thalysonrodrigues/qrcode-urls/raw/master/pages/running-mobile.png)
