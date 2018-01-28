@@ -20,4 +20,4 @@
 
 ##mobile
 
-![Alt Text](https://github.com/thalysonrodrigues/hello-world/raw/master/pages/running-mobile.png)
+![Alt Text](https://github.com/thalysonrodrigues/qrcode-urls/raw/master/pages/running-mobile.png)
