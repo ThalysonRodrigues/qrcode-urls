@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+main{
+    width: 100%;
+}
+
+.container{
+    border: 1px solid #dddddd;
+    border-radius: 7px;
+    padding: 3%;
+    width: 60%;
+    margin: 3% auto;
+}
+
+#myform{
+    width: 100%;
+    text-align: center;
+}
+
+#myform input[type='url']{
+    width: 100%;
+    border-radius: 5px;
+    color: #808080;
+    padding: 4%;
+    border: 1px solid #dddddd;
+    margin-bottom: 3%;
+    font-size: 1.1em;
+}
+
+#myform input[type='submit']{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #1a75ff;
+    color: #fff;
+    padding: 3%;
+    font-size: 1.3em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+section#qrcode{
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+}
+
+section#qrcode h1{
+    font-size: 1.2em;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding: 2% 1%;
+    font-weight: 500;
+}
+
+section#qrcode img#yourqrcode{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.msg{
+    width: 100%;
+    font-size: 1em;
+    padding: 5%;
+    text-align: center;
+    display: none;
+}
+
+.sucess{
+    background-color: #66ff99;
+    color: #004d1a;
+}
+
+.failed{
+    background-color: #ff8080;
+    color: #990000;
+}
+
+@media screen and (min-width: 375px) {
+    #myform input[type='submit'],
+    #myform input[type='url']{
+        font-size: 1.1em;
+    }
+    section#qrcode{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #myform input[type='submit']{
+        width: 80%;
+    }
+    section#qrcode{
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 560px) {
+    #myform{
+        width: 90%;
+    }
+    #myform input[type='url']{
+        padding: 3%;
+    }
+    #myform input[type='submit']{
+        width: 70%;
+    }
+    section#qrcode{
+        width: 65%;
+    }
+    .msg{
+        font-size: 1em;
+        padding: 3%;
+    }
+}
+
+@media screen and (min-width: 675px) {
+    #myform{
+        width: 75%;
+    }
+    #myform input[type='submit']{
+        width: 70%;
+    }
+    section#qrcode{
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #myform{
+        width: 60%;
+    }
+    #myform input[type='submit']{
+        width: 55%;
+    }
+    section#qrcode{
+        width: 35%;
+    }
+    .msg{
+        font-size: 1.1em;
+        padding: 2%;
+    }
+}
+/*  */
