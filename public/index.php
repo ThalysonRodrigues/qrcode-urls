@@ -1,2 +1,2 @@
 <?php
-    require_once("../src/home.php");
+require_once("../src/home.php");
